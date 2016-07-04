@@ -1,0 +1,92 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+a
+{
+	text-decoration:none;
+	text-decoration-line: none;
+}
+.msg_block
+{
+	border-radius:10px;
+	background: #ddd;
+	
+	min-height:200px;
+	display:block;
+	margin:16px;
+	margin-left:0px;
+	overflow:hidden;
+	position: relative;
+}
+body
+{
+	background:#eee;
+}
+
+.title2
+{
+	line-height:40px;
+	background: #666;
+	color:#fff;
+	width:100%;
+	margin:0;
+	
+	padding-left:20px;
+	display:block;
+	overflow:hidden;
+}
+.content
+{
+	margin:10px;
+
+}
+.btn-edit 
+{
+	background:#33aaee;
+	border-radius:3px;
+	height:25px;
+	width:60px;
+	text-align:center;
+	line-height: 25px;
+	color:#fff;
+	display:inline-block;
+	text-decoration:none;
+	margin-left:10px;
+}
+.btn-edit a
+{
+	text-decoration:none;
+	text-decoration-line: none;
+	color:white;
+}
+.btn-edit a:hover
+{
+	text-decoration:none;
+	text-decoration-line:none;
+	background: none;
+	color:white;
+}
+.new-btn a:link,.new-btn a:visited
+{
+    background-color: #b10821;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	border-radius: 3px;
+	position:relative;
+	margin-left:20px;
+}

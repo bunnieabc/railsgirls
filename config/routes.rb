@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: redirect('/events')
   get 'pages/info'
 
   resources :events
